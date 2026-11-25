@@ -1,7 +1,7 @@
 import { join } from 'node:path';
-import { z } from '@cairul/plugin-kit';
-import { list, option, reportsIn, selectors, value } from '@cairul/plugin-kit/runner';
-import { junit } from '@cairul/plugin-kit/reports';
+import { z } from '@cairul/pdk';
+import { list, option, reportsIn, selectors, value } from '@cairul/pdk/runner';
+import { junit } from '@cairul/pdk/reports';
 
 export default {
   command: ['cypress'],
